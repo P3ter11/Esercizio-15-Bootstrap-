@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap 2</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#">Browse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#">Landings</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#">Accounts</a>
+              </li>
+            </ul>
+            
+          </div>
+          <form class="dflex justify-content-end">
+            <img src="/assets/avatar-1.jpg" class= "user-logo" alt="user-icon">
+          </form>
+        </div>
+      </nav>
+
+      <div class="box text-light" id="jumbotron">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-4 col-10 my-2">
+                <h1 class="fw-bold">Welcome Web Students</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat soluta magni unde impedit recusandae voluptates quibusdam quis error, 
+                    quia labore! Pariatur eius eum praesentium inventore esse possimus iste voluptatibus neque.
+                </p>
+                <div class="d-flex">
+                    <button class="btn text-light me-2" id="btn-green">Browse Courses</button>
+                    <button class="btn bg-light text-dark">Are you Instructor?</button>
+                </div>
+              </div>
+            <img class="col-md-4" src="/assets/hero-img.png" alt="hero-img" id="hero">
+        </div>
+
+      </div>
+
+      <section class="container my-3">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+            <p>Find the perfect course for your needs.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+            <p>Find the perfect course for your needs.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+            <p>Find the perfect course for your needs.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <main class="box bg-secondary-subtle">
+        <div class="container py-4">
+          <h2 class="my-3">Reccomended to you</h2>
+          <div class="row gx-5">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-angular.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets//course-css.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-graphql.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-python.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <h2 class="mt-5 mb-3">Most popular</h2>
+          <div class="row gx-5">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-wordpress.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets//course-laravel.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-javascript.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="/assets/course-html.jpg" class="card-img-top" alt="course-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <h2 class="mt-5 mb-3">Trending</h2>
+            <div class="row gx-5">
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="/assets/course-gatsby.jpg" class="card-img-top" alt="course-angular">
+                  <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="/assets//course-node.jpg" class="card-img-top" alt="course-angular">
+                  <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="/assets/course-react.jpg" class="card-img-top" alt="course-angular">
+                  <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="/assets/course-css.jpg" class="card-img-top" alt="course-angular">
+                  <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
