@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Feather;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/feather.ttf) format("truetype");
+}
+
 #jumbotron{
     background-color: rgb(119, 100, 206);
 }
@@ -15,4 +22,57 @@
 .user-logo{
     border-radius: 50%;
     width: 50px;
+}
+
+#dropdown-user{
+    left: 87%;
+    width: 12%;
+}
+
+#dropdown-user div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.courses-online{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.courses-online p{
+    margin-bottom: 0;
+}
+
+.courses-online i{
+    position: relative;
+    background-color: rgba(230, 213, 120, 0.603);
+    padding: 20px;
+    margin-right: 10px;
+    color: rgb(56, 56, 5);
+    border-radius: 50%;
+}
+
+.card{
+    transition: all 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 15px 3px #000000; 
+    box-shadow: 5px 5px 15px 3px #000000;
+}
+
+@media only screen and (max-width: 600px) {
+    #jumbotron{
+        flex-direction: column;
+    }
+
+    .courses-online{
+        margin: 15px auto;
+    }
+
+    
 }

@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/12d98e03a9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap 2</title>
 </head>
 <body>
+  <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -42,11 +44,23 @@
             
           </div>
           <form class="dflex justify-content-end">
-            <img src="/assets/avatar-1.jpg" class= "user-logo" alt="user-icon">
+            <img src="/assets/avatar-1.jpg" class= "user-logo" alt="user-icon" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <ul class="dropdown-menu p-1" id="dropdown-user">
+              <li>
+                <div>
+                  <img src="/assets/avatar-1.jpg" class="user-logo">
+                  <p class="mt-2">User Account <br><span>user@gmail.com</span></p>
+                </div>
+              </li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul> 
           </form>
         </div>
-      </nav>
+    </nav>
 
+    <!-- Jumbotron -->
       <div class="box text-light" id="jumbotron">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-4 col-10 my-2">
@@ -65,26 +79,37 @@
 
       </div>
 
+      <!-- Online Courses -->
       <section class="container my-3">
         <div class="row">
-          <div class="col-md-4">
-            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
-            <p>Find the perfect course for your needs.</p>
+          <div class="col-md-4 courses-online">
+            <i class="fa-solid fa-video mr-2"></i>
+            <div>
+              <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+              <p>Find the perfect course for your needs.</p>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
-            <p>Find the perfect course for your needs.</p>
+          <div class="col-md-4 courses-online">
+            <i class="fa-solid fa-video mr-2"></i>
+            <div>
+              <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+              <p>Find the perfect course for your needs.</p>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h3 class="fs-5 fw-bold">30.000 online courses</h3>
-            <p>Find the perfect course for your needs.</p>
+          <div class="col-md-4 courses-online">
+            <i class="fa-solid fa-video mr-2"></i>
+            <div>
+              <h3 class="fs-5 fw-bold">30.000 online courses</h3>
+              <p>Find the perfect course for your needs.</p>
+            </div>
           </div>
         </div>
 
       </section>
 
+      <!-- Container Cards-->
       <main class="box bg-secondary-subtle">
-        <div class="container py-4">
+        <div class="container py-4 my-3">
           <h2 class="my-3">Reccomended to you</h2>
           <div class="row gx-5">
             <div class="col-md-3">
